@@ -1,0 +1,28 @@
+{
+  "name": "storybook-web-components",
+  "version": "1.0.0",
+  "description": "Storybook with Web Components",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --config .storybook/server.config.mjs --watch --node-resolve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aelbore/storybook-web-components.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aelbore/storybook-web-components/issues"
+  },
+  "homepage": "https://github.com/aelbore/storybook-web-components#readme",
+  "dependencies": {
+    "lit-element": "2.4.0",
+    "lit-html": "1.3.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "0.1.11",
+    "@web/dev-server-storybook": "0.3.5"
+  }
+}
